@@ -1,8 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Step 1 : A React frontend that fetches book and author data from Supabase.
+Step 2 : Create an account for supabase and create tables for book and author
+Step 3 : A RESTful API endpoint (GET /books) implemented with a Supabase Edge Function to handle filtering, sorting, and pagination.
